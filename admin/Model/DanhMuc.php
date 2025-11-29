@@ -22,7 +22,7 @@ class DanhMuc {
         pdo_execute($sql, $ten, $id);
     }
 
-    
+
     public function delete($id) {
         $sql = "update danhmuc set deleted = 1 where id = ?";
         pdo_execute($sql, $id);
