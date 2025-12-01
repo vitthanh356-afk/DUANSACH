@@ -73,6 +73,21 @@
                                 <span>Tài khoản</span>
                             </a>
                         </li>
+                        <a href="logout.php" style="
+                            padding: 6px 12px;
+                            background: #f44336;
+                            color: #fff;
+                            border-radius: 6px;
+                            text-decoration: none;
+                            font-size: 14px;
+                            transition: 0.2s;
+                            " 
+                            onmouseover="this.style.background='#d32f2f';" 
+                            onmouseout="this.style.background='#f44336';">
+                            Đăng xuất
+                        </a>
+
+
                     </ul>
                 </div>
                 <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
