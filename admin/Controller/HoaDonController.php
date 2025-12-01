@@ -1,5 +1,5 @@
 <?php 
-include("Model/HoaDon.php");
+include_once("Model/HoaDon.php");
 class HoaDonController {
     private $hoaDon;
     public function __construct()
@@ -17,7 +17,7 @@ class HoaDonController {
     }
     public function store() {
         if(isset($_POST['ten'])) {
-            $ten = $_POST['ten'];
+            $ten = $_POST['tenkhachhang'];
             $diaChi = $_POST['diachi'];
             $sdt = $_POST['sdt'];
             $ngayGio = $_POST['ngaygiodat'];
