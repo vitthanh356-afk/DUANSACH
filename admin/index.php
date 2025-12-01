@@ -1,4 +1,13 @@
 <?php
+session_start();
+
+// Nếu chưa đăng nhập → chuyển về login
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.php");
+    exit;
+}
+
+// ====================== CONTROLLER ======================
 include_once("Controller/DanhMucController.php");
 include_once("Controller/SanPhamController.php");
 include_once("Controller/HoaDonController.php");
@@ -12,10 +21,14 @@ $hoaDon = new HoaDonController();
 $chiTietHoaDon = new ChiTietHoaDonController();
 $nhaXuatBan = new NhaXuatBanController();
 $taiKhoan = new TaiKhoanController();
-if(isset($_GET['action']) && $_GET['action'] != "") {
-$action = $_GET['action'];
-    switch($action) {
-        
+
+// ====================== ROUTER ======================
+if (isset($_GET['action']) && $_GET['action'] != "") {
+
+    $action = $_GET['action'];
+
+    switch ($action) {
+
         //danhmuc
         case "listdanhmuc":
             $danhMuc->index();
@@ -83,7 +96,7 @@ $action = $_GET['action'];
         case "listchitiethoadon":
             $chiTietHoaDon->index();
             break;
-            
+
         // nhaxuatban
         case "listnhaxuatban":
             $nhaXuatBan->index();
@@ -130,8 +143,9 @@ $action = $_GET['action'];
             $taiKhoan->restore();
             break;
     }
+
 } else {
+    // Mặc định vào trang danh mục
     $danhMuc->index();
 }
-
 ?>
