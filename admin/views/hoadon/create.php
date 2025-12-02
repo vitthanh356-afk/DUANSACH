@@ -15,7 +15,7 @@ include_once("views/layouts/header.php");
                                 <div class="form-group">
                                     <label for="first-name-vertical">Khách hàng</label>
                                     <input type="text" id="first-name-vertical" class="form-control" 
-                                    name="ten" placeholder="Điền tên khách hàng vào đây">
+                                    name="tenkhachhang" placeholder="Điền tên khách hàng vào đây">
                                 </div>
                                 <div class="form-group">
                                     <label for="first-name-vertical">Địa chỉ</label>

@@ -39,7 +39,13 @@ include_once("views/layouts/header.php");
                                 <td><?= $item['id_sanpham'] ?></td>
                                 <td><?= $item['soluong'] ?></td>
                                 <td><?= $item['gia'] ?></td>
-                                <td><button class="btn btn-success">Đã thanh toán</button></td>
+                                <td><?php 
+                                    if ($item['trangthai'] == 0) {
+                                        echo '<button class="btn btn-success">Đã thanh toán</button>';
+                                    } else {
+                                        echo '<button class="btn btn-danger">Chưa thanh toán</button>';
+                                    }
+                                ?></td>
                             </tr>
                         <?php } ?>
                     </tbody>

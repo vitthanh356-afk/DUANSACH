@@ -5,8 +5,6 @@ session_start();
 if (isset($_POST['username'])) {
     $user = $_POST['username'];
     $pass = $_POST['password'];
-
-    // Tùy Hưng xử lý DB, đây là ví dụ:
     if ($user === "Hưng" && $pass === "123") {
         $_SESSION['admin'] = $user;
         header("Location: index.php");

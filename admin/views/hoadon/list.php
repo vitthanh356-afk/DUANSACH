@@ -47,7 +47,7 @@ include_once("views/layouts/header.php");
                                         class="btn btn-secondary">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="index.php?action=listchitiethoadon"
+                                    <a href="index.php?action=listchitiethoadon&id=<?= $item['id'] ?>"
                                         class="btn btn-secondary">Chi tiết</a>
                                 </td>
                             </tr>

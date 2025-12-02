@@ -7,7 +7,6 @@ if (!isset($_SESSION['admin'])) {
     exit;
 }
 
-// ====================== CONTROLLER ======================
 include_once("Controller/DanhMucController.php");
 include_once("Controller/SanPhamController.php");
 include_once("Controller/HoaDonController.php");
@@ -22,11 +21,8 @@ $chiTietHoaDon = new ChiTietHoaDonController();
 $nhaXuatBan = new NhaXuatBanController();
 $taiKhoan = new TaiKhoanController();
 
-// ====================== ROUTER ======================
 if (isset($_GET['action']) && $_GET['action'] != "") {
-
     $action = $_GET['action'];
-
     switch ($action) {
 
         //danhmuc
@@ -145,7 +141,6 @@ if (isset($_GET['action']) && $_GET['action'] != "") {
     }
 
 } else {
-    // Mặc định vào trang danh mục
     $danhMuc->index();
 }
 ?>
