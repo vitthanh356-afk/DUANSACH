@@ -8,7 +8,8 @@ class ChiTietHoaDonController {
     }
     // List
     public function index() {
-        $allChiTietHoaDon = $this->chiTietHoaDon->getAll();
+        $id = $_GET['id'] ?? 0;
+        $allChiTietHoaDon = $this->chiTietHoaDon->getByHoaDon($id);
         include_once("./views/chitiethoadon/list.php");
     }
 }
