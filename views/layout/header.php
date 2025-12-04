@@ -20,13 +20,13 @@
     <link rel="apple-touch-icon" href="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./views/css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./views/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./views/css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="./views/css/custom.css">
 
     <!-- [if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -114,7 +114,7 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Trang chủ</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">Liên hệ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Cửa hàng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php?action=listshop">Cửa hàng</a></li>
                         <!-- <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Cửa hàng</a>
                             <ul class="dropdown-menu">
