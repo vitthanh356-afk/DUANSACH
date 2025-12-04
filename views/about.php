@@ -5,7 +5,7 @@ include_once("layout/header.php");
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="banner-frame" style="width:540px;height:472px;position:relative;overflow:hidden;"><img class="img-fluid" src="images/book.avif" alt="Sách hay" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+        <div class="banner-frame" style="width:540px;height:472px;position:relative;overflow:hidden;"><img class="img-fluid" src="views/images/book.avif" alt="Sách hay" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
       </div>
       <div class="col-lg-6">
         <h2 class="noo-sh-title-top">Chúng tôi là <span>SachHay</span></h2>
@@ -42,7 +42,7 @@ include_once("layout/header.php");
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/tai.png" alt="" />
+                        <div class="our-team"> <img src="views/images/tai.png" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Phú Tài</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
@@ -70,7 +70,7 @@ include_once("layout/header.php");
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/thanh.png" alt="" />
+                        <div class="our-team"> <img src="views/images/thanh.png" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Việt Thành</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
@@ -96,7 +96,7 @@ include_once("layout/header.php");
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/hungphai.png" alt="" />
+                        <div class="our-team"> <img src="views/images/hungphai.png" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Nguyễn Hưng</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
@@ -122,7 +122,7 @@ include_once("layout/header.php");
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/quang.png" alt="" />
+                        <div class="our-team"> <img src="views/images/quang.png" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Minh Quang</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
