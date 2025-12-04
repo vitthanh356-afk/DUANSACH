@@ -71,10 +71,10 @@ include_once("layout/header.php");
             <div class="products-single fix">
               <div class="box-img-hover">
                 <div class="type-lb">
-                  <p class="sale">Sale</p>
+                  <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-01.jpg"
+                  src="images/img-pro-011.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -108,11 +108,11 @@ include_once("layout/header.php");
                       ></a>
                     </li>
                   </ul>
-                  <a class="cart" href="#">Add to Cart</a>
+                  <a class="cart" href="#">Thêm vào giỏ hàng</a>
                 </div>
               </div>
               <div class="why-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
+                <h4>Sách dế mèn phưu lưu ký</h4>
                 <h5>$7.79</h5>
               </div>
             </div>
@@ -122,10 +122,10 @@ include_once("layout/header.php");
             <div class="products-single fix">
               <div class="box-img-hover">
                 <div class="type-lb">
-                  <p class="new">New</p>
+                  <p class="new">Hàng mới!</p>
                 </div>
                 <img
-                  src="images/img-pro-02.jpg"
+                  src="images/img-pro-022.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -159,11 +159,11 @@ include_once("layout/header.php");
                       ></a>
                     </li>
                   </ul>
-                  <a class="cart" href="#">Add to Cart</a>
+                  <a class="cart" href="#">Thêm vào giỏ hàng</a>
                 </div>
               </div>
               <div class="why-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
+                <h4>Hoàng tử bé</h4>
                 <h5>$9.79</h5>
               </div>
             </div>
@@ -173,10 +173,10 @@ include_once("layout/header.php");
             <div class="products-single fix">
               <div class="box-img-hover">
                 <div class="type-lb">
-                  <p class="sale">Sale</p>
+                  <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-03.jpg"
+                  src="images/img-pro-033.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -210,11 +210,11 @@ include_once("layout/header.php");
                       ></a>
                     </li>
                   </ul>
-                  <a class="cart" href="#">Add to Cart</a>
+                  <a class="cart" href="#">Thêm vào giỏ hàng</a>
                 </div>
               </div>
               <div class="why-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
+                <h4>Nhà giả kim</h4>
                 <h5>$10.79</h5>
               </div>
             </div>
@@ -224,10 +224,10 @@ include_once("layout/header.php");
             <div class="products-single fix">
               <div class="box-img-hover">
                 <div class="type-lb">
-                  <p class="sale">Sale</p>
+                  <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-04.jpg"
+                  src="images/img-pro-044.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -261,11 +261,11 @@ include_once("layout/header.php");
                       ></a>
                     </li>
                   </ul>
-                  <a class="cart" href="#">Add to Cart</a>
+                  <a class="cart" href="#">Thêm vào giỏ hàng</a>
                 </div>
               </div>
               <div class="why-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
+                <h4>Python cơ bản</h4>
                 <h5>$15.79</h5>
               </div>
             </div>
@@ -282,7 +282,7 @@ include_once("layout/header.php");
       <div class="main-instagram owl-carousel owl-theme">
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-01.jpg" alt="" />
+            <img src="images/instagram-img-011.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -290,7 +290,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-02.jpg" alt="" />
+            <img src="images/instagram-img-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -298,7 +298,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-03.jpg" alt="" />
+            <img src="images/instagram-img-033.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -306,7 +306,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-04.jpg" alt="" />
+            <img src="images/instagram-img-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -314,7 +314,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-05.jpg" alt="" />
+            <img src="images/img-pro-011.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -322,7 +322,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-06.jpg" alt="" />
+            <img src="images/img-pro-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -330,7 +330,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-07.jpg" alt="" />
+            <img src="images/img-pro-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -338,7 +338,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-08.jpg" alt="" />
+            <img src="images/img-pro-033.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -346,7 +346,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-09.jpg" alt="" />
+            <img src="images/img-pro-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -354,7 +354,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-05.jpg" alt="" />
+            <img src="images/img-pro-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -362,6 +362,28 @@ include_once("layout/header.php");
         </div>
       </div>
     </div>
+    <style>
+  
+.instagram-box .item {
+    margin: 0 10px; 
+}
+
+
+.instagram-box .ins-inner-box {
+    height: 420px; 
+    overflow: hidden;
+}
+
+
+.instagram-box .ins-inner-box img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0; 
+}
+
+    </style>
     <!-- End Instagram Feed  -->
 <?php 
 include_once("layout/footer.php");

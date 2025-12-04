@@ -5,28 +5,28 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="footer-top-box">
-							<h3>Business Time</h3>
+							<h3>Giờ làm việc</h3>
 							<ul class="list-time">
-								<li>Monday - Friday: 08.00am to 05.00pm</li> <li>Saturday: 10.00am to 08.00pm</li> <li>Sunday: <span>Closed</span></li>
+								<li>Thứ 2 - Thứ 6: 08.00am to 05.00pm</li> <li>Thứ 7: 10.00am to 08.00pm</li> <li>Chủ nhật: <span>Đóng</span></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="footer-top-box">
-							<h3>Newsletter</h3>
+							<h3>Gửi cho tôi thông báo về ưu đãi mới nhất:</h3>
 							<form class="newsletter-box">
 								<div class="form-group">
-									<input class="" type="email" name="Email" placeholder="Email Address*" />
+									<input class="" type="email" name="Email" placeholder="Email" />
 									<i class="fa fa-envelope"></i>
 								</div>
-								<button class="btn hvr-hover" type="submit">Submit</button>
+								<button class="btn hvr-hover" type="submit">Gửi</button>
 							</form>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="footer-top-box">
-							<h3>Social Media</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<h3>Mạng xã hội</h3>
+							<p>Bạn có thể tìm chúng tôi qua những:</p>
 							<ul>
                                 <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -43,36 +43,36 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
-                            <h4>About Freshshop</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 							
+                            <h4>Về trang web</h4>
+                            <p>Trang web SachHay giúp bạn rút ngắn hành trình tìm – chọn – mua sách từ vài giờ xuống vài phút. Bạn có thể bắt đầu bằng ô tìm kiếm nhanh hoặc duyệt theo thể loại, tác giả, chủ đề; mỗi trang sách đều có mô tả ngắn gọn, vài trích dẫn nổi bật và review chân thực để dễ quyết định. Hệ thống gợi ý dựa trên sở thích đọc giúp bạn khám phá thêm những tựa phù hợp, còn danh sách yêu thích và giỏ hàng đơn giản giữ mọi thứ gọn gàng. </p> 
+							<p>Việc thanh toán được tối giản với vài lựa chọn phổ biến, đi kèm theo dõi đơn minh bạch. Chúng tôi đóng gói cẩn thận, giao nhanh, hỗ trợ đổi trả khi sách lỗi và luôn sẵn sàng trả lời qua chat hoặc email. Mỗi tuần, SachHay cập nhật sách mới, tạo bộ sưu tập theo mùa và ưu đãi nhỏ nhưng thật, để việc đọc trở nên dễ bắt đầu, thú vị và bền bỉ mỗi ngày. </p> 							
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-link">
-                            <h4>Information</h4>
+                            <h4>Thông tin</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="about.php">Về chúng tôi</a></li>
+                                <li><a href="#">Dịch vụ khách hàng</a></li>
+                         
+                                <li><a href="#">Điều khoản  &amp; sử dụng</a></li>
+                                <li><a href="#">Quyền và pháp lý</a></li>
+                           
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-link-contact">
-                            <h4>Contact Us</h4>
+                            <h4>Liên hệ chúng tôi</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Địa chỉ: 911 Phường Thiên Đường <br>Phố Grove<br> 676767 </p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Số điện thoại: <a href="tel:+1-888705770">+1-888 705 770</a></p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">loveandlighttv69@gmail.com</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -82,15 +82,8 @@
         </div>
     </footer>
     <!-- End Footer  -->
-      <!-- Start copyright  -->
-    <div class="footer-copyright">
-      <p class="footer-company">
-        All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-        <a href="https://html.design/">html design</a>
-      </p>
-    </div>
-    <!-- End copyright  -->
 
+    
     <a href="#" id="back-to-top" title="Back to top" style="display: none"
       >&uarr;</a
     >
