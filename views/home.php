@@ -9,7 +9,7 @@ include_once("layout/header.php");
             <div class="shop-cat-box">
               <img
                 class="img-fluid"
-                src="https://salt.tikicdn.com/cache/w300/ts/product/33/58/3b/d29179196b77f1bfbbe3d79ce904383a.png"
+                src="https://salt.tikicdn.com/cache/w1200/ts/product/6f/cc/02/10b8e5dd727702077a23b7417e0a72f4.png"
                 alt=""
               />
               <a class="btn hvr-hover" href="#">Chiến thắng con quỷ trong bạn</a>
@@ -74,7 +74,7 @@ include_once("layout/header.php");
                   <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-011.jpg"
+                  src="views/images/img-pro-011.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -125,7 +125,7 @@ include_once("layout/header.php");
                   <p class="new">Hàng mới!</p>
                 </div>
                 <img
-                  src="images/img-pro-022.jpg"
+                  src="views/images/img-pro-022.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -176,7 +176,7 @@ include_once("layout/header.php");
                   <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-033.jpg"
+                  src="views/images/img-pro-033.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -227,7 +227,7 @@ include_once("layout/header.php");
                   <p class="sale">Giảm giá!</p>
                 </div>
                 <img
-                  src="images/img-pro-044.jpg"
+                  src="views/images/img-pro-044.jpg"
                   class="img-fluid"
                   alt="Image"
                 />
@@ -282,7 +282,7 @@ include_once("layout/header.php");
       <div class="main-instagram owl-carousel owl-theme">
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-011.jpg" alt="" />
+            <img src="views/images/instagram-img-011.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -290,7 +290,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-022.jpg" alt="" />
+            <img src="views/images/instagram-img-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -298,7 +298,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-033.jpg" alt="" />
+            <img src="views/images/instagram-img-033.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -306,7 +306,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/instagram-img-044.jpg" alt="" />
+            <img src="views/images/instagram-img-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -314,7 +314,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-011.jpg" alt="" />
+            <img src="views/images/img-pro-011.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -322,7 +322,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-022.jpg" alt="" />
+            <img src="views/images/img-pro-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -330,7 +330,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-022.jpg" alt="" />
+            <img src="views/images/img-pro-022.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -338,7 +338,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-033.jpg" alt="" />
+            <img src="views/images/img-pro-033.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -346,7 +346,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-044.jpg" alt="" />
+            <img src="views/images/img-pro-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
@@ -354,7 +354,7 @@ include_once("layout/header.php");
         </div>
         <div class="item">
           <div class="ins-inner-box">
-            <img src="images/img-pro-044.jpg" alt="" />
+            <img src="views/images/img-pro-044.jpg" alt="" />
             <div class="hov-in">
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
