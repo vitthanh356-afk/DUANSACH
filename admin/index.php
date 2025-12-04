@@ -13,6 +13,7 @@ include_once("Controller/HoaDonController.php");
 include_once("Controller/ChiTietHoaDonController.php");
 include_once("Controller/NhaXuatBanController.php");
 include_once("Controller/TaiKhoanController.php");
+include_once("Controller/ThongKeController.php");
 
 $danhMuc = new DanhMucController();
 $sanPham = new SanPhamController();
@@ -20,6 +21,7 @@ $hoaDon = new HoaDonController();
 $chiTietHoaDon = new ChiTietHoaDonController();
 $nhaXuatBan = new NhaXuatBanController();
 $taiKhoan = new TaiKhoanController();
+$thongKe = new ThongKeController();
 
 if (isset($_GET['action']) && $_GET['action'] != "") {
     $action = $_GET['action'];
@@ -138,8 +140,18 @@ if (isset($_GET['action']) && $_GET['action'] != "") {
         case "restoretaikhoan":
             $taiKhoan->restore();
             break;
-    }
 
+        // thongke
+        case "listthongke":
+            $thongKe->index();
+            break;
+        case "listbestseller":
+            $thongKe->bestseller();
+            break;
+        case "listnewest":
+            $thongKe->newest();
+            break;
+    }
 } else {
     $danhMuc->index();
 }
