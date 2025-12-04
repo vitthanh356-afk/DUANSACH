@@ -112,9 +112,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Trang chủ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Liên hệ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Cửa hàng</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home.php">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lienhe.php">Liên hệ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cuahang.php">Cửa hàng</a></li>
                         <!-- <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Cửa hàng</a>
                             <ul class="dropdown-menu">
@@ -122,7 +122,7 @@
                             </ul>
                         </li> -->
                         
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Về chúng tôi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.php">Về chúng tôi</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
