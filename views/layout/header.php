@@ -132,9 +132,9 @@
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="side-menu">
-							<a href="#">
+							<a href="index.php?action=listcart">
 								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
+								<span class="badge"></span>
 								<p>Giỏ hàng</p>
 							</a>
 						</li>
@@ -147,24 +147,8 @@
                 <a href="#" class="close-side"><i class="fa fa-times"></i></a>
                 <li class="cart-box">
                     <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="https://salt.tikicdn.com/cache/w300/ts/product/33/58/3b/d29179196b77f1bfbbe3d79ce904383a.png" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Chiến thắng con quỷ trong bạn </a></h6>
-                            <p>1x - <span class="price">600.000đ</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="https://tiki.vn/blog/wp-content/uploads/2023/08/phan-4-dac-nhan-tam-1024x1024.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Đắc nhân tâm</a></h6>
-                            <p>1x - <span class="price">200.000đ</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="https://vn-test-11.slatic.net/p/8d447c57ab19c760d677aa20b7fe5a49.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Thao túng tâm lý</a></h6>
-                            <p>1x - <span class="price">400.000đ</span></p>
-                        </li>
                         <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">Xem giỏ hàng</a>
-                            <span class="float-right"><strong>Total</strong>: 1.200.000đ</span>
+                            <a href="index.php?action=listgiohang" class="btn btn-default hvr-hover btn-cart">Xem giỏ hàng</a>
                         </li>
                     </ul>
                 </li>

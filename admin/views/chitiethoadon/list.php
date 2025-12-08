@@ -39,7 +39,7 @@ include_once("views/layouts/header.php");
                                 <td><?= $item['id_sanpham'] ?></td>
                                 <td><?= $item['soluong'] ?></td>
                                 <td><?= $item['gia'] ?></td>
-                                <td><?php 
+                                <td><?php
                                     if ($item['trangthai'] == 0) {
                                         echo '<button class="btn btn-success">Đã thanh toán</button>';
                                     } else {

@@ -41,7 +41,7 @@ include_once("layout/header.php");
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
                                                         </ul>
-                                                        <a class="cart" href="#">Thêm vào giỏ hàng</a>
+                                                        <a class="cart" href="index.php?action=addcart&idsp=<?= $item['id']?>">Thêm vào giỏ hàng</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
@@ -80,7 +80,7 @@ include_once("layout/header.php");
                                                     <h4><?= $item['name']?></h4>
                                                     <h5><?= $item['price']?> VNĐ</h5>
                                                     <p><?= $item['mota']?></p>
-                                                    <a class="btn hvr-hover" href="#">Thêm vào giỏ hàng</a>
+                                                    <a class="btn hvr-hover" href="index.php?action=addcart&idsp=<?= $item['id']?>">Thêm vào giỏ hàng</a>
                                                 </div>
                                             </div>
                                             <?php }?>
