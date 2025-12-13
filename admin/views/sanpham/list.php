@@ -30,7 +30,8 @@ include_once("views/layouts/header.php");
                             <th class="col-1">Giá sp</th>
                             <th class="col-2">Ảnh</th>
                             <th class="col-3">Mô tả</th>
-                            <th class="col-2">Hành động</th>
+                            <th class="col-2">Nhà xuất bản</th>
+                            <th class="col-3">Hành động</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -42,6 +43,7 @@ include_once("views/layouts/header.php");
                                 <td><?= $item['price'] ?></td>
                                 <td><img width="100px" src="./<?= $item['img'] ?>" alt=""></td>
                                 <td><?= $item['mota'] ?></td>
+                                <td><?= $item['tenNXB'] ?></td>
                                 <td>
                                     <a href="index.php?action=editsanpham&id=<?= $item['id'] ?>"
                                         class="btn btn-secondary">Sửa</a>

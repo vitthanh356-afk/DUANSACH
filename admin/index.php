@@ -14,6 +14,7 @@ include_once("Controller/ChiTietHoaDonController.php");
 include_once("Controller/NhaXuatBanController.php");
 include_once("Controller/TaiKhoanController.php");
 include_once("Controller/ThongKeController.php");
+include_once("Helper/Helper.php");
 
 $danhMuc = new DanhMucController();
 $sanPham = new SanPhamController();
@@ -94,6 +95,9 @@ if (isset($_GET['action']) && $_GET['action'] != "") {
         case "listchitiethoadon":
             $chiTietHoaDon->index();
             break;
+        case "listupdate":
+            $chiTietHoaDon->update();
+            break;
 
         // nhaxuatban
         case "listnhaxuatban":
@@ -140,16 +144,10 @@ if (isset($_GET['action']) && $_GET['action'] != "") {
         case "restoretaikhoan":
             $taiKhoan->restore();
             break;
-
+            
         // thongke
         case "listthongke":
             $thongKe->index();
-            break;
-        case "listbestseller":
-            $thongKe->bestseller();
-            break;
-        case "listnewest":
-            $thongKe->newest();
             break;
     }
 } else {

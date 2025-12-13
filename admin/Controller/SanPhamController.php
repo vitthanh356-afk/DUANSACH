@@ -5,10 +5,12 @@ class SanPhamController
 {
     private $sanPham;
     private $danhMuc;
+    private $nhaXuatBan;
     public function __construct()
     {
         $this->sanPham = new SanPham();
         $this->danhMuc = new DanhMuc();
+        $this->nhaXuatBan = new NhaXuatBan();
     }
     // list
     public function index()
@@ -16,6 +18,7 @@ class SanPhamController
         $allSanPham = $this->sanPham->getAll();
         foreach($allSanPham as $key => $item) {
             $allSanPham[$key]['tendanhmuc'] = $this->danhMuc->getOne($item['iddm'])['name'];
+            $allSanPham[$key]['tenNXB'] = $this->nhaXuatBan->getOne($item['idnxb'])['name'];
         }
         include_once("./views/sanpham/list.php");
     }
@@ -23,6 +26,7 @@ class SanPhamController
     public function create()
     {
         $allDanhMuc = $this->danhMuc->getAll();
+        $allNhaXuatBan = $this->nhaXuatBan->getAll();
         include_once("./views/sanpham/create.php");
     }
     public function store() {
@@ -31,13 +35,14 @@ class SanPhamController
             $gia = $_POST['gia'];
             $moTa = $_POST['mota'];
             $idDanhMuc = $_POST['danhmuc'];
+            $idNhaXuatBan = $_POST['nhaxuatban'];
             if(isset($_FILES['anh'])) {
                 // B1:xem có ảnh gửi đến không
                 // B2: Đặt lại tên ảnh bao gồm cả đường dẫn (Để không trùng khi vào db)
                 $imageName = "image/" . uniqid() . "_" . $_FILES['anh']['name'];
                 move_uploaded_file($_FILES['anh']['tmp_name'], $imageName);
                 var_dump($imageName);
-                $this->sanPham->insert($ten, $gia, $moTa, $idDanhMuc, $imageName); // Gọi function insert ở model.
+                $this->sanPham->insert($ten, $gia, $moTa, $idDanhMuc, $idNhaXuatBan, $imageName); // Gọi function insert ở model.
             }
             header("Location:index.php?action=listsanpham"); 
         }
@@ -46,6 +51,7 @@ class SanPhamController
     public function edit() {
         if(isset($_GET['id'])) {
             $allDanhMuc = $this->danhMuc->getAll();
+            $allNhaXuatBan = $this->nhaXuatBan->getAll();
             $id = $_GET['id'];
             $sanPham = $this->sanPham->getOne($id);
             include_once("./views/sanpham/edit.php");
@@ -58,6 +64,7 @@ class SanPhamController
             $gia = $_POST['gia'];
             $moTa = $_POST['mota'];
             $idDanhMuc = $_POST['danhmuc'];
+            $idNhaXuatBan = $_POST['nhaxuatban'];
             $imageName = null;
             if(isset($_FILES['anh']) && $_FILES['anh']['name'] != '') {
                 $linkAnhSanPham = $this->sanPham->getOne($id)['img'];
@@ -67,7 +74,7 @@ class SanPhamController
                     unlink($linkAnhSanPham);
                 }
             }
-            $this->sanPham->update($id, $ten, $gia, $moTa, $idDanhMuc, $imageName); // Gọi function insert ở model.
+            $this->sanPham->update($id, $ten, $gia, $moTa, $idDanhMuc, $idNhaXuatBan, $imageName); // Gọi function insert ở model.
             header("Location:index.php?action=listsanpham");
         }
     }

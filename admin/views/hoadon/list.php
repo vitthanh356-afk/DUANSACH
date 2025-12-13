@@ -30,6 +30,7 @@ include_once("views/layouts/header.php");
                             <th>SĐT</th>
                             <th>Ngày đặt hàng</th>
                             <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
                             <th>Hành động</th>
                         </tr>
                     </thead>
@@ -41,12 +42,11 @@ include_once("views/layouts/header.php");
                                 <td><?= $item['diachi'] ?></td>
                                 <td><?= $item['sdt'] ?></td>
                                 <td><?= $item['ngaygiodat'] ?></td>
-                                <td><?= $item['tongtien'] ?></td>
+                                <td><?= number_format($item['tongtien'])?> VNĐ</td>
+                                <td><?= Helper:: TrangThaiThanhToan[$item['trangthai']] ?></td>
                                 <td>
                                     <a href="index.php?action=edithoadon&id=<?= $item['id'] ?>"
-                                        class="btn btn-secondary">Sửa</a>
-                                </td>
-                                <td>
+                                        class="btn btn-success">Sửa</a>
                                     <a href="index.php?action=listchitiethoadon&id=<?= $item['id'] ?>"
                                         class="btn btn-secondary">Chi tiết</a>
                                 </td>

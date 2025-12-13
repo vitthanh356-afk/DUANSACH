@@ -42,6 +42,10 @@ if (isset($_GET['action']) && $_GET['action'] != "") {
         case "checkout":
             $checkout->add();
             break;
-    }
+        // detail
+        case "listchitiet":
+            $shop->detail();
+            break;
+    }   
 }
 ?>

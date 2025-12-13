@@ -1,0 +1,192 @@
+/* =============================
+   GLOBAL
+============================= */
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f3f3f3 !important;
+  color: #333;
+}
+
+/* =============================
+   SIDEBAR
+============================= */
+#sidebar .sidebar-wrapper {
+  background: #2e3a47 !important;
+}
+
+.sidebar-header .logo img {
+  width: 140px;
+}
+
+.sidebar-title {
+  color: #b7c4cf !important;
+  font-size: 13px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sidebar-item a.sidebar-link {
+  background: transparent !important;
+  color: #d8e1e8 !important;
+  margin: 4px 0;
+  padding: 12px 15px !important;
+  border-radius: 8px !important;
+  transition: 0.25s ease;
+}
+
+.sidebar-item a.sidebar-link i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Hover */
+.sidebar-item a.sidebar-link:hover {
+  background: #1f2a33 !important;
+  color: #fff !important;
+}
+
+/* Active */
+.sidebar-item.active > a.sidebar-link {
+  background: #1a2530 !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-left: 4px solid #4da3ff;
+}
+
+/* Logout button */
+.sidebar-menu a[href="logout.php"] {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0 !important;
+  background: #d9534f !important;
+  color: #fff !important;
+  border-radius: 8px;
+  transition: 0.25s;
+}
+
+.sidebar-menu a[href="logout.php"]:hover {
+  background: #c9302c !important;
+}
+
+/* =============================
+   HEADER
+============================= */
+#main header {
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.burger-btn i {
+  color: #333;
+}
+
+/* =============================
+   CONTENT WRAPPER
+============================= */
+#main {
+  padding: 25px;
+}
+
+/* =============================
+   BUTTONS
+============================= */
+.btn-primary {
+  background-color: #4c89ff !important;
+  border-color: #4c89ff !important;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #326dde !important;
+}
+
+.btn-success {
+  border-radius: 8px;
+}
+
+.btn-danger {
+  border-radius: 8px;
+}
+
+/* =============================
+   CARD / BOX
+============================= */
+.card {
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: 700;
+  background: transparent !important;
+  border-bottom: none !important;
+}
+
+/* =============================
+   TABLES
+============================= */
+
+table.dataTable-table {
+  border-radius: 12px !important;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.dataTable-table thead th {
+  background-color: #e9eef5 !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  padding: 14px;
+}
+
+.dataTable-table tbody td {
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Hover rows */
+.dataTable-table tbody tr:hover {
+  background: #f9fbff;
+}
+
+/* =============================
+   FORMS
+============================= */
+.form-control {
+  border-radius: 8px !important;
+  padding: 10px 12px !important;
+}
+
+.form-select {
+  border-radius: 8px !important;
+}
+
+label {
+  font-weight: 600 !important;
+}
+
+/* =============================
+   FOOTER
+============================= */
+footer {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 25px;
+}
+.logo img {
+  height: 150px !important;
+  width: auto !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}

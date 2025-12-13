@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="views/assets/vendors/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="views/assets/css/app.css">
     <link rel="shortcut icon" href="views/assets/images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="views/assets/css/admin.css?v=1">
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-between">
                         <div class="logo">
-                            <a href="index.html"><img src="views/assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                            <a href="index.html"><img src="views/assets/images/logo/logoo.png" alt="Logo" srcset=""></a>
                         </div>
                         <div class="toggler">
                             <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>

@@ -28,7 +28,7 @@ if (isset($_POST['username'])) {
 
 <div class="login-container">
     <div class="login-box">
-        <img src="views/assets/images/logo/logo.png" class="logo" alt="Admin Logo">
+        <img src="views/assets/images/logo/logoo.png" class="logo" alt="Admin Logo">
 
         <h2>Đăng nhập Admin</h2>
 
