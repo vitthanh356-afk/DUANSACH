@@ -18,5 +18,11 @@ class ShopController {
     public function trangchu() {
         include_once("./views/home.php");
     }
+    // Chi tiết
+    public function detail() {
+        $id = $_GET['id'] ?? 0;
+        $allSanPham = $this->shopModel->getOne($id);
+        include_once("./views/detail.php");
+    }
 }
 ?>

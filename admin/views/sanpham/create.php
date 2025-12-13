@@ -48,6 +48,16 @@ include_once("views/layouts/header.php");
                                         placeholder="Điền mô tả sản phẩm vào đây">
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <fieldset class="form-group">
+                                    <label for="first-name-vertical">Nhà xuất bản</label>
+                                    <select name="nhaxuatban" class="form-select" id="basicSelect">
+                                        <?php foreach ($allNhaXuatBan as $item) { ?>
+                                            <option value="<?=  $item['id'] ?>"><?=  $item['name'] ?></option>
+                                        <?php } ?>
+                                    </select>
+                                </fieldset>
+                            </div>
                             <div class="col-12 d-flex justify-content-end">
                                 <button type="submit" class="btn btn-primary me-1 mb-1">Thêm</button>
                                 <button type="reset" class="btn btn-light-secondary me-1 mb-1">Làm mới</button>

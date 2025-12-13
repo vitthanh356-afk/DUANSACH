@@ -20,7 +20,7 @@ class HoaDonController {
             $ten = $_POST['tenkhachhang'];
             $diaChi = $_POST['diachi'];
             $sdt = $_POST['sdt'];
-            $ngayGio = $_POST['ngaygiodat'];
+            $ngayGio = date("Y-m-d H:i:s");
             $tong = $_POST['tongtien'];
             $this->hoaDon->insert($ten, $diaChi, $sdt, $ngayGio, $tong);
             header("Location:index.php?action=listhoadon");

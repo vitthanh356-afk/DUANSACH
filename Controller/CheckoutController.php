@@ -5,7 +5,6 @@ class CheckoutController {
     {
         $this->checkoutModel = new CheckoutModel();
     }
-    // showcheckout
     
     // Load giu lieu gio hang
     public function index() {
@@ -38,6 +37,8 @@ class CheckoutController {
             foreach($_SESSION['cart'] as $item) {
                 $this->checkoutModel->insertCTHoaDon($hoaDonId, $item['id'], $item['soLuong'], $item['price']);
             }
+            //  Xóa đơn hàng sau khi đặt
+            unset($_SESSION['cart']);
             // Thong bao
             echo "<script>
                         alert('Đặt hàng thành công!');
